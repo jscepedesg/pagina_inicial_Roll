@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: 100%; }
+  
+a {
+   text-decoration: none;
+   color: inherit; }
+  
+body {
+   overflow-x: hidden; }
+p {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: 10;
+    font-size: 1.5em;
+    color: #1c2938;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  header #logoContainer{
+      width: auto;
+      height: auto;
+      position: absolute;
+      left: 2%;
+      top: 30px;
+  } 
+    header #logoContainer .logoObjects{
+        display: inline-block;
+    }
+    header #logoContainer #logoApp{
+        width: 1.5em;
+    }
+    header #logoContainer #logoText{
+        font-size: 1em;
+    }
+  header #navigation{
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 2%;
+    top: 30px;
+  }  
+    header #navigation #navigationControl{
+        width: auto;
+        cursor: pointer;
+    }
+      header #navigation #navigationControl img{
+          width: 1.5em;
+      }
+    header #navigation #navigationContainer{
+        display: none
+    }
+
+#mainSection{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#mainSection .colorContainers{
+    width: 100%;
+    height: 33%;
+    overflow: hidden;
+    padding: 20px;
+}
+#mainSection #firstolorContainer{
+    background-color: #ff9c91
+}
+#mainSection #secondColorContainer{
+    background-color: #cd3f3e
+}
+#mainSection #thirdColorContainer{
+    background-color: #1c2938
+}
+#mainSection .colorContainers .infoContainers{
+    border: 10px #f4f6f6 solid ;
+    border-radius: 5%;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    overflow: hidden;
+    position: relative;
+    left: 10%;
+}
+#mainSection .colorContainers #secondInfoContainer {
+    right: 10%;
+}
+#mainSection .colorContainers .infoContainers img{
+    width: 100%;
+}
